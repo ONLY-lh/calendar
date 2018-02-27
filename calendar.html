@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>calendar</title>
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+
+<body> 
+日期: <input type="text" id="datecalendar">
+<div id="container"></div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+<script>
+$('#container').calendar()
+/*$('#container').calendar({
+	inputId:'#datecalendar',
+    containerId: '#container'
+})*/
+</script>
+
+</html>
